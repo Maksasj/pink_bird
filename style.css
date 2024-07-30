@@ -1,0 +1,68 @@
+* {
+    font-family: "ＭＳ Ｐゴシック", serif;
+    letter-spacing: 1.5px;
+
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated
+}
+
+body {
+    color: white;
+    background-image: url('assets/moonplanets.png');
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 130px;
+    border: solid;
+    border-color: black;
+}
+
+.navigation {
+    margin-top: 5px;
+
+    border: solid;
+    border-color: black;
+}
+
+.navigation_button {
+    width: 150px;
+    color: white;
+
+    font-weight: bolder;
+    background-color: deeppink;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    border-width: 4px;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: aqua;
+}
+
+.content {
+    margin-top: 15px;
+    
+    background-color: rgba(255, 0, 208, 0.203);
+    
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border-width: 5px;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: aqua;
+}
+
+.footer {
+    margin-top: 10px;
+
+    border: solid;
+    border-color: black;
+}
