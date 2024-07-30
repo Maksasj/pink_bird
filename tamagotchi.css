@@ -1,0 +1,26 @@
+#tamagotchi_pet {
+    position: absolute;
+
+    width: 160px;
+    height: 200px;
+}
+
+.tamagotchi_header {
+    height: 20px;
+
+    border-width: 5px;
+    border-style: ridge;
+    border-color: aqua; 
+
+    background-color: deeppink;
+}
+
+.tamagotchi_content {
+    height: 180px;
+
+    border-width: 5px;
+    border-style: ridge;
+    border-color: aqua; 
+
+    background-color: whitesmoke;
+}
