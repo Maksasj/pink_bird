@@ -10,8 +10,8 @@ Pink bird is a logic continuation to miku_gnoming project.
 > This time red bird is a new [miku gnoming](https://maksasj.github.io/miku_gnoming/) framework.
 
 Cool looking widgets 
-<img src="https://img.shields.io/github/stars/Maksasj/miku_gnoming" alt="stars">
-<img src="https://img.shields.io/github/license/Maksasj/miku_gnoming" alt="build">
+<img src="https://img.shields.io/github/stars/Maksasj/pink_bird" alt="stars">
+<img src="https://img.shields.io/github/license/Maksasj/pink_bird" alt="build">
 
 ## License 🩷
 **pink bird** is free and open source software/website. All code in this repository is licensed under
