@@ -8,19 +8,19 @@
 .tamagotchi_header {
     height: 20px;
 
-    border-width: 5px;
-    border-style: ridge;
-    border-color: aqua; 
+    border-style: solid;
+    border-color: rgb(210, 106, 255);
+    border-radius: 5px 5px 0px 0px;
 
-    background-color: deeppink;
+    background-color: rgb(210, 106, 255);
 }
 
 .tamagotchi_content {
     height: 180px;
 
-    border-width: 5px;
-    border-style: ridge;
-    border-color: aqua; 
+    border-style: solid;
+    border-color: rgb(210, 106, 255);
+    border-radius: 0px 0px 5px 5px;
 
-    background-color: whitesmoke;
+    background-color: white;
 }
