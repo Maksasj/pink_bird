@@ -4,7 +4,9 @@
 
     image-rendering: auto;
     image-rendering: crisp-edges;
-    image-rendering: pixelated
+    image-rendering: pixelated;
+
+    cursor: url('assets/hydrangeaheartsani.gif'), auto;
 }
 
 body {
@@ -19,15 +21,10 @@ body {
 
 .header {
     height: 130px;
-    border: solid;
-    border-color: black;
 }
 
 .navigation {
     margin-top: 5px;
-
-    border: solid;
-    border-color: black;
 }
 
 .navigation_button {
@@ -46,20 +43,71 @@ body {
     border-color: aqua;
 }
 
-.content {
+.window {
     margin-top: 15px;
+}
+
+.window_title {
+    margin-top: 0px;
+    color: white;
+    
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px 5px 5px 0px;
+    font-weight: bolder;
+
+    background-color: rgb(210, 106, 255);
+
+    display: flex;
+}
+
+.window_title_name {
+    margin: 0 auto;
+}
+
+.window_title_actions {
+    float: right
+}
+
+.window_body {
+    margin-top: 0px;
 
     color: blueviolet;
+
+    border-style: solid;
+    border-color: rgb(210, 106, 255);
     
     background-image: url('assets/rbowcolorsmusicnotes.gif');
-    
+    border-radius: 0px 0px 5px 5px;
+
     padding-left: 10px;
     padding-right: 10px;
+}
 
-    border-width: 5px;
-    border-radius: 25px;
-    border-style: dashed;
-    border-color: aqua;
+.content_container_wrapper {
+    display: flex;
+}
+
+.content_container_half {
+    width: 350px;
+    background-color: white;
+
+    border-style: solid;
+    border-color: rgb(210, 106, 255);
+    border-radius: 5px;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.content_container_full {
+    margin: 10px;
+    background-color: white;
+
+    border-style: solid;
+    border-color: rgb(210, 106, 255);
+    border-radius: 5px;
+
+    padding: 10px;
 }
 
 .footer {
