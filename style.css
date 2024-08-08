@@ -17,17 +17,12 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 .header {
     height: 130px;
-}
-
-.navigation {
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 .navigation_button {
@@ -36,11 +31,11 @@ body {
     margin-top: 10px;
     text-align: center;
 
-    width: 150px;
-    height: 30px;
+    width: 135px;
+    height: 23px;
 
     color: white;
-    font-weight: bolder;
+    font-size: 15px;
 
     border-radius: 5px;
     padding-top: 10px;
@@ -54,8 +49,24 @@ body {
     text-decoration: none;
 }
 
-.window {
+.window_full {
+    width: 1000px;
     margin-top: 15px;
+}
+
+.window_left {
+    width: 200px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.window_right {
+    width: 800px;
+    margin-top: 15px;
+}
+
+.window_wrapper {
+    display: flex;
 }
 
 .window_title {
@@ -64,7 +75,6 @@ body {
     
     border-radius: 5px 5px 0px 0px;
     padding: 5px 5px 5px 0px;
-    font-weight: bolder;
 
     background-color: rgb(210, 106, 255);
 
@@ -92,6 +102,7 @@ body {
 
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .content_container_wrapper {
@@ -104,7 +115,7 @@ body {
 
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(210, 106, 255);
+    border-color: blueviolet;
     border-radius: 5px;
 
     padding: 10px;
@@ -117,7 +128,7 @@ body {
 
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(210, 106, 255);
+    border-color: blueviolet;
     border-radius: 5px;
 
     padding: 10px;
